@@ -24,7 +24,6 @@ In this repository we release code our Point2Sequence classification and segment
 
 Install <a href="https://www.tensorflow.org/install/">TensorFlow</a>. The code is tested under TF1.4 GPU version and Python 2.7 on Ubuntu 16.04. There are also some dependencies for a few Python libraries for data processing like `cv2`, `h5py` etc. It's highly recommended that you have access to GPUs.
 Before running the code, you need to compile customized TF operators as described in <a href="https://github.com/charlesq34/pointnet2/">PointNet++</a>.
-The 
 ### Usage
 
 #### Shape Classification
@@ -53,4 +52,4 @@ Our code is released under MIT License (see LICENSE file for details).
 ### Related Projects
 
 * <a href="https://arxiv.org/abs/1706.02413" target="_blank">PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space</a> by Qi et al. (NIPS 2017). Code and data released in <a href="https://github.com/charlesq34/pointnet2">GitHub</a>.
-* <a href="https://arxiv.org/abs/1711.08488" target="_blank">Frustum PointNets for 3D Object Detection from RGB-D Data</a> by Qi et al. (CVPR 2018) A novel framework for 3D object detection with RGB-D data. Based on 2D boxes from a 2D object detector on RGB images, we extrude the depth maps in 2D boxes to point clouds in 3D space and then realize instance segmentation and 3D bounding box estimation using PointNet/PointNet++. The method proposed has achieved first place on KITTI 3D object detection benchmark on all categories (last checked on 11/30/2017). Code and data release TBD.
+* <a href="http://openaccess.thecvf.com/content_cvpr_2018/html/Xie_Attentional_ShapeContextNet_for_CVPR_2018_paper.html" target="_blank">Attentional ShapeContextNet for Point Cloud Recognition</a> by Qi et al. (CVPR 2018)
