@@ -1,7 +1,7 @@
 ### Point2Sequence: *Learning the Shape Representation of 3D Point Clouds with an Attention-based Sequence to Sequence Network*
 Created by Xinhai Liu, Zhizhong Han, <a href="http://cgcad.thss.tsinghua.edu.cn/liuyushen/" target="_blank">Yu-Shen Liu</a>, Matthias Zwicker.
 
-![prediction example](https://github.com/charlesq34/pointnet2/blob/master/doc/architecture.jpg)
+![prediction example](https://github.com/liuxinhai/Point2Sequence/master/doc/architecture.jpg)
 
 ### Citation
 If you find our work useful in your research, please consider citing:
