@@ -1,7 +1,7 @@
 ### Point2Sequence: *Learning the Shape Representation of 3D Point Clouds with an Attention-based Sequence to Sequence Network*
 Created by Xinhai Liu, Zhizhong Han, <a href="http://cgcad.thss.tsinghua.edu.cn/liuyushen/" target="_blank">Yu-Shen Liu</a>, Matthias Zwicker.
 
-![prediction example](https://github.com/liuxinhai/Point2Sequence/tree/master/doc/architecture.jpg)
+![prediction example](https://github.com/liuxinhai/Point2Sequence/blob/master/doc/architecture.jpg)
 
 ### Citation
 If you find our work useful in your research, please consider citing:
@@ -51,5 +51,5 @@ Our code is released under MIT License (see LICENSE file for details).
 
 ### Related Projects
 
-* <a href="https://arxiv.org/abs/1706.02413" target="_blank">PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space</a> by Qi et al. (NIPS 2017). Code and data released in <a href="https://github.com/charlesq34/pointnet2">GitHub</a>.
-* <a href="http://openaccess.thecvf.com/content_cvpr_2018/html/Xie_Attentional_ShapeContextNet_for_CVPR_2018_paper.html" target="_blank">Attentional ShapeContextNet for Point Cloud Recognition</a> by Qi et al. (CVPR 2018)
+* <a href="https://arxiv.org/abs/1706.02413" target="_blank">PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space</a> by Qi et al. (NIPS 2017)
+* <a href="http://openaccess.thecvf.com/content_cvpr_2018/html/Xie_Attentional_ShapeContextNet_for_CVPR_2018_paper.html" target="_blank">Attentional ShapeContextNet for Point Cloud Recognition</a> by Xie et al. (CVPR 2018)
