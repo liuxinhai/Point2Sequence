@@ -26,7 +26,7 @@ def get_model(point_cloud, is_training, bn_decay=None):
     l0_points = None
 
     # Set abstraction layers
-    l1_xyz, l1_points = point2sequence_module(l0_xyz, l0_points, 256, [16,32,64,128], [[32,64,128], [64,64,128], [64,64,128], [128,128,128]], 128, 128, is_training, bn_decay, scope='layer1')
+    l1_xyz, l1_points = point2sequence_module(l0_xyz, l0_points, 384, [16,32,64,128], [[32,64,128], [64,64,128], [64,64,128], [128,128,128]], 128, 128, is_training, bn_decay, scope='layer1')
     l2_xyz, l2_points, _ = pointnet_sa_module(l1_xyz, l1_points, npoint=None, radius=None, nsample=None, mlp=[256,512,1024], mlp2=None, group_all=True, is_training=is_training, bn_decay=bn_decay, scope='layer2')
 
     # Fully connected layers
