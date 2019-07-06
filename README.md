@@ -6,11 +6,11 @@ Created by Xinhai Liu, Zhizhong Han, <a href="http://cgcad.thss.tsinghua.edu.cn/
 ### Citation
 If you find our work useful in your research, please consider citing:
 
-        @article{liu2018point2sequence,
+        @inproceedings{liu2019point2sequence,
           title={Point2Sequence: Learning the Shape Representation of 3D Point Clouds with an Attention-based Sequence to Sequence Network},
           author={Liu, Xinhai and Han, Zhizhong and Liu, Yu-Shen and Zwicker, Matthias},
-          journal={arXiv preprint arXiv:1811.02565},
-          year={2018}
+          booktitle={Thirty-Third AAAI Conference on Artificial Intelligence},
+          year={2019}
         }
 
 ### Introduction
