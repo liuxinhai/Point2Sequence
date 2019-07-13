@@ -67,7 +67,7 @@ BN_DECAY_CLIP = 0.99
 HOSTNAME = socket.gethostname()
 
 NUM_CLASSES = 40
-os.environ['CUDA_VISIBLE_DEVICES'] = '6'
+os.environ['CUDA_VISIBLE_DEVICES'] = '0'  #set your gpu id
 
 # datasets with different number of points
 if FLAGS.normal:
